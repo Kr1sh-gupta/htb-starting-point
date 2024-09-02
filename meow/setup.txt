@@ -1,5 +1,5 @@
 Setting up 
-sudo openvpn ../krish/Desktop/htb/starting_point_Kr1shG.ovpn
+sudo openvpn ../<location>/starting_point_Kr1shG.ovpn
 
 
 questions
