@@ -1,0 +1,35 @@
+nmap -p- -sV -T5 (faster) <ip>
+
+TCP port at 6379
+using redis
+
+obtain info from hacktricks redis cli
+
+redis is an In-memory database (faster) = cache data
+redis-cli -h 10.129.167.205 (h = host)
+
+obtain the information and statistics about the Redis server
+INFO 
+
+
+
+select 1 >> ok
+In Redis, keys are the fundamental data structure used to 
+identify, 
+store,
+retrieve data. 
+keys * (we can see how many keys in 1) 
+
+get "<key name>"
+03e1d2b376c37ab3f5319922053953eb
+
+
+
+
+sum-up 
+SELECT 1 
+{..Indicate the database..}
+KEYS *
+{..View all  Keys...}
+GET <KEY>
+{..Get Key..}
