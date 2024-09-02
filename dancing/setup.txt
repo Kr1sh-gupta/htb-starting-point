@@ -16,8 +16,10 @@ smbclient -h or man smbclienty
 flag or switch use with the SMB tool o list the content 
 -L
 
+ip: 10.129.103.176
+
 How many share 4
-smbclient -L //10.129.103.176/WorkShares
+smbclient -L //<ip>/WorkShares
 	Sharename       Type      Comment
 	---------       ----      -------
 	ADMIN$          Disk      Remote Admin
@@ -26,6 +28,6 @@ smbclient -L //10.129.103.176/WorkShares
 	WorkShares      Disk      
 
 
-smbclient //10.129.103.176/WorkShares
+smbclient //<ip>/WorkShares
 
 smb>ls and get 
