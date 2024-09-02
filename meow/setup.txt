@@ -1,0 +1,21 @@
+Setting up 
+sudo openvpn ../krish/Desktop/htb/starting_point_Kr1shG.ovpn
+
+
+questions
+Q) What tool do we use to test our connection to the target with an ICMP echo request?
+A) ping
+
+Q) What service do we identify on port 23/tcp during our scans?
+A) Telnet
+
+
+nmap scanning ports and all:
+nmap -p -sV 10.129.193.240
+
+Connecting to the the Ip 
+telnet <ip>
+telnet -h
+
+for manual of telenet 
+man telenet

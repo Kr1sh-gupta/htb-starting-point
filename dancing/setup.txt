@@ -1,0 +1,31 @@
+nmap -p- -sV 10.129.103.176
+
+smb Server Message Block
+communication protocol used to share files, printers, serial ports, and 
+miscellaneous communications between nodes on a network
+
+port of smb: 445
+nmap -sV <ip>
+
+tool we used to connect to SMB shares
+smbclient
+
+smbclient -h or man smbclienty
+
+
+flag or switch use with the SMB tool o list the content 
+-L
+
+How many share 4
+smbclient -L //10.129.103.176/WorkShares
+	Sharename       Type      Comment
+	---------       ----      -------
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+	IPC$            IPC       Remote IPC
+	WorkShares      Disk      
+
+
+smbclient //10.129.103.176/WorkShares
+
+smb>ls and get 

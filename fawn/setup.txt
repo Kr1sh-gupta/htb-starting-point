@@ -1,0 +1,30 @@
+FTP - file transfer protocol
+The File Transfer Protocol (FTP) uses two port numbers by default: 
+port 21 for the command port and port 20 for the data port
+
+FTP service listen  21
+secure ftp > sftp with encryption
+
+
+(Internet Control Message Protocol) ICMP echo request: ping 
+
+IP nmap -p- -sS -sV 10.129.177.181
+get vsftpd 
+search in searchsploit
+ 
+to login ftp 
+ftp <ip>
+
+ftp anonymously login 
+username: anonymous
+passsowrd: anonymous
+
+230 Login successful 
+
+ftp> 
+ls listing with read-write
+help show all the commands that can be used
+
+
+command used to download in ftp: get
+FLag 035db21c881520061c53e0536e44f815

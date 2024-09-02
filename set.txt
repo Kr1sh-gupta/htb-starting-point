@@ -1,0 +1,1 @@
+sudo openvpn ../krish/Desktop/htb/starting_point_Kr1shG.ovpn
